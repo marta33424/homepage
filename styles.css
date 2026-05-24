@@ -152,6 +152,69 @@ body {
   height: 1.1428rem;
 }
 
+/* Блок досвіду та академічних проєктів */
+
+.experiences {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.experiences__header {
+  color: var(--primary-text-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+}
+
+.experiences__company-header-name {
+  color: var(--primary-text-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experiences__company-header-durability {
+  color: var(--durability-text-color);
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.experiences__company-project {
+  margin-bottom: 35px; 
+  padding-left: 5px;
+}
+
+.experiences__company-project-name {
+  color: var(--primary-text-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.experiences__company-project-role {
+  color: var(--text-decoration-color); 
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-top: 20px;    
+  margin-bottom: 6px;
+}
+
+.experiences__company-project-responsibilities {
+  padding-left: 22px; 
+  color: var(--secondary-text-color);
+  font-size: 0.95rem;
+}
+
+.experiences__company-project-responsibilities li {
+  margin-bottom: 6px; 
+  text-align: justify; 
+}
+
 /* Адаптивність під мобільні екрани */
 @media screen and (max-width: 600px) {
   .intro-profile {
