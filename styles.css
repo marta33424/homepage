@@ -215,6 +215,61 @@ body {
   text-align: justify; 
 }
 
+/* Блок навичок */
+
+.skills {
+  margin-top: 15px;
+}
+
+.skills__header {
+  color: var(--primary-text-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+
+ul.skills__text {
+  display: flex;
+  flex-direction: row;    
+  flex-wrap: wrap;        
+  gap: 15px 0;            
+  list-style-type: none;  
+  padding-left: 0;
+  width: 100%;            
+}
+
+ul.skills__text li {
+  color: var(--secondary-text-color);
+  font-size: 1.05rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  min-width: 33.33%;      
+  transition: all 0.2s ease;
+}
+
+ul.skills__text li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--text-decoration-color); 
+  border-radius: 50%;       
+  margin-right: 12px;       
+  transition: transform 0.2s ease;
+}
+
+ul.skills__text li:hover {
+  color: var(--primary-text-color); 
+  padding-left: 6px;                
+}
+
+ul.skills__text li:hover::before {
+  transform: scale(1.3);            
+}
+
 /* Адаптивність під мобільні екрани */
 @media screen and (max-width: 600px) {
   .intro-profile {
