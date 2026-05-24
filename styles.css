@@ -270,6 +270,63 @@ ul.skills__text li:hover::before {
   transform: scale(1.3);            
 }
 
+/* Блок додаткової інформації */
+.additional-info__education-header,
+.additional-info__languages-header {
+  color: var(--primary-text-color);
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+  padding-bottom: 0; 
+}
+
+/* Секція навчання */
+.additional-info__education-university {
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university:last-child {
+  margin-bottom: 0;
+}
+
+.additional-info__education-university-durability {
+  color: var(--durability-text-color);
+  font-size: 0.85rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.additional-info__education-university-speciality,
+.additional-info__languages-item-wrapper h3 {
+  color: var(--text-decoration-color); 
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.additional-info__education-university-name {
+  color: var(--secondary-text-color);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Секція мов */
+.additional-info__languages-item-wrapper {
+  margin-bottom: 15px;
+}
+
+.additional-info__languages-item-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.additional-info__languages-level {
+  color: var(--secondary-text-color);
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
 /* Адаптивність під мобільні екрани */
 @media screen and (max-width: 600px) {
   .intro-profile {
