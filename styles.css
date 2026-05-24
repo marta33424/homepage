@@ -344,4 +344,15 @@ ul.skills__text li:hover::before {
     align-items: center;
     gap: 15px;
   }
+
+  ul.skills__text {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  ul.skills__text li {
+    width: 100%;
+    min-width: 100%;
+    padding: 2px 0;
+  }
 }
